@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+.text{
+   text-align: center;
+   font-size: larger;
+}
+.img{
+   display: flex; 
+   justify-content: center;
+   gap: 50px;
+   flex-wrap: wrap;
+  
+}
+.ig{
+    width: 150px;
+    height: 150px;
+   border-radius: 5px solid black;
+}
+.choices{
+    display: flex; 
+    justify-content: center;
+    gap:145px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.result{
+    margin-top: 5%;
+    text-align: center;
+   color: red;
+   font-size: 38px;
+}
+.count{display: flex;
+    color:red;
+    justify-content:center;
+    margin-top: 5%;
+    gap: 100px;
+   
+}
